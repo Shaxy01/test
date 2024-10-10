@@ -16,7 +16,7 @@ void main() {
 class RobotsState extends ChangeNotifier {
   List<bool> robotsActive = List.filled(6, false);
   String robotNamespace = 'tb2_';
-  String serverAddress = 'ws://192.168.5.143:9080'; // Domyślny adres serwera
+  String serverAddress = 'ws://192.168.5.143:9090'; // Domyślny adres serwera
 
   void updateRobotsActive(List<bool> activeList) {
     robotsActive = List.from(activeList);
